@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./font/Norse-Bold.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  background-color: rgb(226, 226, 167);
+  display: flex;
+  font-family: Helvetica;
+}
+
+.right-column {
+  display: block;
+  margin-left: 30px;
+}
+
+.left-column p{
+  font-family: "Norse Bold";
+  font-size: 5em;
+  color: whitesmoke;
+  opacity: 100%;
+  position: absolute;
+  top: 130px;
+  left: 200px;
+}
+
+#logo {
+  position: absolute;
+  top: 0 px;
+  left: 100px;
+  height: 100px;
+  opacity: 100%;
+}
+#gambar-kiri {
+  width: 450px;
+  height: fit-content;
+}
+.garishitam {
+  display: block;
+  width: 450px;
+  position: absolute;
+  top: 200px;
+  height: 100px;
+  background-color: black;
+  opacity: 55%;
+}
+
+header {
+  margin-top: 210px;
+}
+table{
+  text-align: left;
+  font-size: 0.7em;
+  color: rgb(108, 117, 108);
+}
+th {
+  justify-content: start;
+}  
+
+button {
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 0.7em;
+  height: 40px;
+  background-color: rgb(46, 102, 46);
+  color: white;
+  border-radius: 10px;
+}
